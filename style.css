@@ -1,0 +1,63 @@
+*, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #010101;
+}
+
+#level {
+  color: white;
+  font-size: 4vw;
+  font-family: Georgia;
+  background-color: red;
+  display: inline;
+  padding: 5px;
+}
+
+#score {
+  font-size: 4vw;
+  color: #ffffff;
+  text-align: center;
+  font-family: Courier New;
+  display: inline;
+}
+
+#canvas {
+  width: 99vw;
+  height: 60vh;
+  background-image: url('map.jpg');
+  background-size: contain;
+  border: 2px solid red;
+}
+
+table {
+  margin: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.allButton {
+  width: 17vw;
+  height: 16vw;
+  background-color: rgb(25, 34, 43);
+  border-radius: 2vw;
+  font-size: 3vw;
+  color: white;
+}
+
+.allButton:active {
+  background-color: rgb(62, 125, 181);
+  border-color: #139;
+  font-size: 7vw;
+}
+
+.startButton {
+  width: 17vw;
+  height: 16vw;
+  font-size: 3.1vw;
+  color: white;
+  background-color: rgb(25, 34, 43);
+  border-radius: 2vw;
+}
